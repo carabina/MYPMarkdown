@@ -7,7 +7,7 @@ MYPMarkdown is not just to parse and show markdown text in native ways. It could
 Simple text input, but rich or custom and interactive output. Users could made their own rules for input and output. It's fully customizable.
 
 Here is part of the prototype:
-[123]
+[[123]]
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
