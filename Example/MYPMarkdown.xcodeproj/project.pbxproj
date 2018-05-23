@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P2Z8WDVQM3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P2Z8WDVQM3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -473,7 +475,9 @@
 			baseConfigurationReference = 43E11428D6D5CB545DE49C1C /* Pods-MYPMarkdown_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2Z8WDVQM3;
 				INFOPLIST_FILE = MYPMarkdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -488,7 +492,9 @@
 			baseConfigurationReference = 24A9A15D78FAA0D41542C152 /* Pods-MYPMarkdown_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2Z8WDVQM3;
 				INFOPLIST_FILE = MYPMarkdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -502,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBD4D6E5279313EC98CFCAC6 /* Pods-MYPMarkdown_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P2Z8WDVQM3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -523,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1889D63877F4E3D0902AC124 /* Pods-MYPMarkdown_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P2Z8WDVQM3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
