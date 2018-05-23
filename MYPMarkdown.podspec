@@ -39,6 +39,6 @@ Markdown parsing and rendering for iOS and OS X. HTML and Attributed Text and Na
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
