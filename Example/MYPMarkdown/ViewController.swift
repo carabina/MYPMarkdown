@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         self.view = UIScrollView()
-        
+        self.view.backgroundColor = .white
         //Change this constant to try different configurations
         let converterConfiguration = ConverterConfiguration.view
         
