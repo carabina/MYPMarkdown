@@ -1,22 +1,27 @@
 {
   "name": "MYPMarkdown",
   "version": "0.1.0",
-  "summary": "A short description of MYPMarkdown.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mayuping321@163.com/MYPMarkdown",
+  "summary": "Markdown parsing and rendering for iOS and OS X. HTML and Attributed Text and Native View output.",
+  "description": "Markdown parsing and rendering for iOS and OS X. HTML and Attributed Text and Native View output. No need to use HTML Now.",
+  "homepage": "https://github.com/wakaryry/MYPMarkdown",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "mayuping321@163.com": "redoume@163.com"
+    "wakary": "redoume@163.com"
   },
   "source": {
-    "git": "https://github.com/mayuping321@163.com/MYPMarkdown.git",
+    "git": "https://github.com/wakaryry/MYPMarkdown.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "MYPMarkdown/Classes/**/*"
+  "swift_version": "4.1",
+  "source_files": "MYPMarkdown/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }
