@@ -7,6 +7,10 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+I just test it in 10.0 and above.
+```
+platform :ios, '10.0'
+```
 
 ## Installation
 
@@ -24,3 +28,7 @@ wakary, redoume@163.com
 ## License
 
 MYPMarkdown is available under the MIT license. See the LICENSE file for more info.
+
+The base code was copied from [Marky-Mark](https://github.com/M2Mobi/Marky-Mark).
+I'm always looking for a markdown editor and native render.
+[Marky-Mark](https://github.com/M2Mobi/Marky-Mark) is really good. Thanks for it.
