@@ -1,6 +1,0 @@
-framework module Pods_MYPMarkdown_Example {
-  umbrella header "Pods-MYPMarkdown_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

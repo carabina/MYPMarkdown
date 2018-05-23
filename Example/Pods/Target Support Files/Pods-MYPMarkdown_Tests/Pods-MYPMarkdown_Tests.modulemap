@@ -1,6 +1,0 @@
-framework module Pods_MYPMarkdown_Tests {
-  umbrella header "Pods-MYPMarkdown_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

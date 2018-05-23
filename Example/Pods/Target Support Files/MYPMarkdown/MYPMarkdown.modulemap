@@ -1,6 +1,0 @@
-framework module MYPMarkdown {
-  umbrella header "MYPMarkdown-umbrella.h"
-
-  export *
-  module * { export * }
-}
