@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* MYPMarkdown_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYPMarkdown_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63BDFF29506B7284044BA363 /* MYPMarkdown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MYPMarkdown.podspec; path = ../MYPMarkdown.podspec; sourceTree = "<group>"; };
-		6F7DBB67AEA7E3349054DE59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63BDFF29506B7284044BA363 /* MYPMarkdown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYPMarkdown.podspec; path = ../MYPMarkdown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F7DBB67AEA7E3349054DE59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		765576629E3E33E69F036965 /* Pods_MYPMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B6FFA2A2267D140D956588E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9B6FFA2A2267D140D956588E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBD4D6E5279313EC98CFCAC6 /* Pods-MYPMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPMarkdown_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYPMarkdown_Tests/Pods-MYPMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
