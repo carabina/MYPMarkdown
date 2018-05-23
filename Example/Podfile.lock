@@ -1,0 +1,16 @@
+PODS:
+  - MYPMarkdown (0.1.0)
+
+DEPENDENCIES:
+  - MYPMarkdown (from `../`)
+
+EXTERNAL SOURCES:
+  MYPMarkdown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MYPMarkdown: ab7cd0bed82b66703fb204c32ad1bd04e86c2884
+
+PODFILE CHECKSUM: 68a58d8b58de4f27f28aa87e3c444ae7afaf1df5
+
+COCOAPODS: 1.5.2
