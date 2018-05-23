@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7593CEAACC0950B7B44856CF /* Pods_MYPMarkdown_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765576629E3E33E69F036965 /* Pods_MYPMarkdown_Example.framework */; };
+		E9B3F29320B596850029C45C /* markdown.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9B3F29220B596850029C45C /* markdown.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		6F7DBB67AEA7E3349054DE59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		765576629E3E33E69F036965 /* Pods_MYPMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6FFA2A2267D140D956588E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E9B3F29220B596850029C45C /* markdown.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = markdown.txt; sourceTree = "<group>"; };
 		EBD4D6E5279313EC98CFCAC6 /* Pods-MYPMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPMarkdown_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYPMarkdown_Tests/Pods-MYPMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9B3F29220B596850029C45C /* markdown.txt */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				E9B3F29320B596850029C45C /* markdown.txt in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
