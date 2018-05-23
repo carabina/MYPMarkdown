@@ -2,6 +2,12 @@
 [![License](https://img.shields.io/cocoapods/l/MYPMarkdown.svg?style=flat)](https://cocoapods.org/pods/MYPMarkdown)
 [![Platform](https://img.shields.io/cocoapods/p/MYPMarkdown.svg?style=flat)](https://cocoapods.org/pods/MYPMarkdown)
 
+MYPMarkdown is not just to parse and show markdown text in native ways. It could used for many cases needed to analyse the inputed text and adding custom actions for some modules. We do not use a UITextView or UIWebView or WebKit for the text showing or rendering. We analyse everything in the text, and translate it into native module such as UIImage, UIButton, or any custom view. Thus users could have a nice experience via the UI with all gestures supported.
+
+Simple text input, but rich or custom and interactive output. Users could made their own rules for input and output. It's fully customizable.
+
+Here is part of the prototype:
+[123]
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
