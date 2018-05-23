@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MYPMarkdown_Example' do
+  pod 'MYPMarkdown', :path => '../'
+
+  target 'MYPMarkdown_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
