@@ -23,11 +23,11 @@ class ViewController: UIViewController {
         let converterConfiguration = ConverterConfiguration.view
         
         //MarkyMark
-        let markyMark = MarkyMark(build: {
+        let mark = MYPMark(build: {
             $0.setFlavor(ContentfulFlavor())
         })
         
-        let markDownItems = markyMark.parseMarkDown(getMarkDownString())
+        let markDownItems = mark.parseMarkDown(getMarkDownString())
         
         let markDownView: UIView
         switch converterConfiguration {
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
 private extension ViewController {
     
     func getViewWithViewConverter(_ markDownItems: [MarkDownItem]) -> UIView {
-        var styling = DefaultStyling()
+        let styling = DefaultStyling()
         styling.listStyling.bulletImages = [
             UIImage(named: "circle"),
             UIImage(named: "emptyCircle"),

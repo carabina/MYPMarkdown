@@ -6,7 +6,7 @@
 
 import Foundation
 
-open class MarkyMark {
+open class MYPMark {
 
     /// Mark down flavor to use for parsing markdown
     var flavor:Flavor?
