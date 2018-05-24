@@ -37,7 +37,7 @@
 		3C240C15C72CC653BD4235648D189DEB /* InlineCodeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B75089013A7D817E78B830320260042 /* InlineCodeRule.swift */; };
 		3E6895657B51E837A57039150986738A /* HasListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1CC57964BB36FA68B5D171FA0539C /* HasListItems.swift */; };
 		3EA9781AA950CCA389CF2DE274725644 /* OrderedMarkDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C09A00D95733A85F06809660410CC3 /* OrderedMarkDownItem.swift */; };
-		40DDFB72B1EA6CEEC3C45E00273D2A11 /* MarkyMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901ACBDE870FAEECD99B413665C9989 /* MarkyMark.swift */; };
+		40DDFB72B1EA6CEEC3C45E00273D2A11 /* MYPMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901ACBDE870FAEECD99B413665C9989 /* MYPMark.swift */; };
 		41527440A1BACBF3C07A2A9CD34CB0C3 /* ContentfulFlavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF9421B06CE574BDBDB11288AEEDBD /* ContentfulFlavor.swift */; };
 		41701E9702C8D6873039225C441BE969 /* HorizontalLineStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E344E3EA8F060DFB3E81A5FEAE1B0E7F /* HorizontalLineStyling.swift */; };
 		42C6778A3AB5BB6D063219C2EDDD4C40 /* ItemStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C336D26C4C052868CEDC6285863AB9 /* ItemStyling.swift */; };
@@ -213,11 +213,11 @@
 		3B75089013A7D817E78B830320260042 /* InlineCodeRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InlineCodeRule.swift; sourceTree = "<group>"; };
 		3B8069E1631589336C0222DF5CAB80D7 /* OrderedListLayoutBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderedListLayoutBlockBuilder.swift; sourceTree = "<group>"; };
 		3B9F985E47B116C0720D5CA6CCC59A5E /* InlineMarkDownItemFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineMarkDownItemFactory.swift; path = MYPMarkdown/Classes/InlineMarkDownItemFactory.swift; sourceTree = "<group>"; };
-		3CF181CF1B417B285938D1F4A2FAFF70 /* Pods_MYPMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdown_Tests.framework; path = "Pods-MYPMarkdown_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF181CF1B417B285938D1F4A2FAFF70 /* Pods_MYPMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4DF4A97EFC82BEADC9EF9D92DE7C10 /* AlphabeticListType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlphabeticListType.swift; sourceTree = "<group>"; };
 		4030CF9762EA6ED0B01F8CF87143CDBD /* BoldMarkDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoldMarkDownItem.swift; sourceTree = "<group>"; };
 		40C6B38922FEA3D242D1CF55747F9F8A /* HasIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasIndex.swift; sourceTree = "<group>"; };
-		42B21C105BD4B1E05284DE5338050317 /* MYPMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYPMarkdown.framework; path = MYPMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B21C105BD4B1E05284DE5338050317 /* MYPMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYPMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F2F3A49525E4277E0536BBFC964F9 /* Pods-MYPMarkdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYPMarkdown_Example-umbrella.h"; sourceTree = "<group>"; };
 		4A31A863DC50E6D6D3A96952AB1B4B1A /* Pods-MYPMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C198859362EE2718A02BD50929826FC /* InlineRegexRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InlineRegexRule.swift; sourceTree = "<group>"; };
@@ -233,7 +233,7 @@
 		60ABB4459A2B11A75A3EE4B9F6813467 /* HeaderMarkDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeaderMarkDownItem.swift; sourceTree = "<group>"; };
 		619F3C81BB99130C86E354109BDD44E5 /* Pods-MYPMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYPMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		61C14F382861B0924399B7DDDB09EB5D /* AttributedStringComposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttributedStringComposer.swift; sourceTree = "<group>"; };
-		6284E74865AAA6B10A54CECAAD3315A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6284E74865AAA6B10A54CECAAD3315A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		62BDF73EFCC239168BDD33F07F3EE206 /* BulletStylingRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BulletStylingRule.swift; sourceTree = "<group>"; };
 		640E4FCBB7E21A17F01A167BC7498873 /* LineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 		65D31778C96B73F644DF5CCB0C52F673 /* AutolayoutViewAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutolayoutViewAppender.swift; sourceTree = "<group>"; };
@@ -267,16 +267,16 @@
 		8F321E5B307FA4AA4D8641EC6019F288 /* InlineTextAttributedStringBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InlineTextAttributedStringBlockBuilder.swift; sourceTree = "<group>"; };
 		903FAF09315BBF1641C076BB9AC4C723 /* InlineCodeMarkDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InlineCodeMarkDownItem.swift; sourceTree = "<group>"; };
 		90CEEB3EBBCAFC92E9429A4EBFB94596 /* AlphabeticListAttributedStringLayoutBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlphabeticListAttributedStringLayoutBlockBuilder.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9584D18AEB9FDEE1F20AF5A6B77B0094 /* ParagraphMarkDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParagraphMarkDownItem.swift; sourceTree = "<group>"; };
 		9683FC8D948441D283AAF77A47AB576D /* InlineImageAttributedStringBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InlineImageAttributedStringBlockBuilder.swift; sourceTree = "<group>"; };
 		9769AC3B5C9DBDA569AD6EF06C56BA09 /* Pods-MYPMarkdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYPMarkdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9901ACBDE870FAEECD99B413665C9989 /* MarkyMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkyMark.swift; path = MYPMarkdown/Classes/MarkyMark.swift; sourceTree = "<group>"; };
+		9901ACBDE870FAEECD99B413665C9989 /* MYPMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MYPMark.swift; path = MYPMarkdown/Classes/MYPMark.swift; sourceTree = "<group>"; };
 		99716DCA9FDD103E50C29CEF07BB9B84 /* MarkdownToViewConverterConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarkdownToViewConverterConfiguration.swift; sourceTree = "<group>"; };
 		9D4810EF52AF14128345F60BDAE666E1 /* BoldStyling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoldStyling.swift; sourceTree = "<group>"; };
 		9DEC324F7BA3AED55132B51CE4BEB5DB /* UnderlineStylingRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnderlineStylingRule.swift; sourceTree = "<group>"; };
 		A19E889F07824702258918524DFFEA47 /* RegExRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegExRule.swift; sourceTree = "<group>"; };
-		A340979CED080ECDC2D00EA14F995B5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A340979CED080ECDC2D00EA14F995B5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A3502E2A30344293C577A3B606730F4A /* ListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		A53B0E35CB28D6E8DDDEB32308F24A78 /* AlphabeticListLayoutBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlphabeticListLayoutBlockBuilder.swift; sourceTree = "<group>"; };
 		A57E9A98967AC99EDFF2A262405CFA42 /* MYPMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYPMarkdown-dummy.m"; sourceTree = "<group>"; };
@@ -301,9 +301,9 @@
 		BAA54F35432BECFC4D649FCC4B9E000A /* HeaderViewLayoutBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeaderViewLayoutBlockBuilder.swift; sourceTree = "<group>"; };
 		BAD8767F18BC5DB61B7D465C11C30508 /* OrderedListType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderedListType.swift; sourceTree = "<group>"; };
 		BE1A04AE1AD312E47E701D368411B826 /* ListMarkDownItemFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListMarkDownItemFactory.swift; path = MYPMarkdown/Classes/ListMarkDownItemFactory.swift; sourceTree = "<group>"; };
-		C047E6ACEE09CE259744376B7BF44EB3 /* MYPMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MYPMarkdown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C047E6ACEE09CE259744376B7BF44EB3 /* MYPMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MYPMarkdown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C213E164A238421A069A713EA2A00DDE /* InlineAttributedStringViewLayoutBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InlineAttributedStringViewLayoutBlockBuilder.swift; sourceTree = "<group>"; };
-		C45D8B091324CE72DC4F743A93BCF64A /* Pods_MYPMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYPMarkdown_Example.framework; path = "Pods-MYPMarkdown_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45D8B091324CE72DC4F743A93BCF64A /* Pods_MYPMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85530B813BCCFE000A900FF27D89A8E /* Pods-MYPMarkdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYPMarkdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8586909B1E189EBDBA40CA2DC285C9D /* BoldItalicMarkDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoldItalicMarkDownItem.swift; sourceTree = "<group>"; };
 		C8592DEB9F0369C953EFDAF151AA0931 /* OrderedListAttributedStringLayoutBlockBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderedListAttributedStringLayoutBlockBuilder.swift; sourceTree = "<group>"; };
@@ -381,7 +381,6 @@
 				7F02EEF77F37D66706FE90D158E69773 /* ParagraphAttributedStringLayoutBlockBuilder.swift */,
 				1029A9A172DA75C7E9B4636D7AB3429D /* QuoteAttributedStringLayoutBlockBuilder.swift */,
 			);
-			name = Block;
 			path = Block;
 			sourceTree = "<group>";
 		};
@@ -395,7 +394,6 @@
 				A3502E2A30344293C577A3B606730F4A /* ListView.swift */,
 				07F64B14BAD5D9166B8A255C65A5AC0A /* RemoteImageView.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -423,7 +421,6 @@
 				6E55CB01687A4C63F002866F62E34076 /* ParagraphViewLayoutBlockBuilder.swift */,
 				D09C7673CDDB78656760B375B45F9AAD /* QuoteBlockLayoutBuilder.swift */,
 			);
-			name = Block;
 			path = Block;
 			sourceTree = "<group>";
 		};
@@ -443,7 +440,6 @@
 				D2285E33444F525F7F675E6315BFFCCC /* Block Builders */,
 				0253E6FB165E9E9E683E7F66D3190822 /* Views */,
 			);
-			name = UIView;
 			path = UIView;
 			sourceTree = "<group>";
 		};
@@ -462,7 +458,6 @@
 				FAFFAE232C63A8FB2568A7E00A15959B /* Rule.swift */,
 				5AB02ABDD869B82D5B70FFECF483A8A4 /* List Types */,
 			);
-			name = Block;
 			path = Block;
 			sourceTree = "<group>";
 		};
@@ -515,7 +510,6 @@
 				FC01C2C4EB5DB51F8785ADA3737653D9 /* StrikeThroughAttributedStringBlockBuilder.swift */,
 				375B196612BD315B2D092CBCE26E520B /* TextAttachment.swift */,
 			);
-			name = Inline;
 			path = Inline;
 			sourceTree = "<group>";
 		};
@@ -524,7 +518,6 @@
 			children = (
 				8E8EFD5B3E9E7AFF949231BD3BC1537A /* Block Builders */,
 			);
-			name = AttributedString;
 			path = AttributedString;
 			sourceTree = "<group>";
 		};
@@ -545,7 +538,6 @@
 				BAD8767F18BC5DB61B7D465C11C30508 /* OrderedListType.swift */,
 				E3440D13A28C505CA0C02F73622A4C12 /* UnOrderedListType.swift */,
 			);
-			name = "List Types";
 			path = "List Types";
 			sourceTree = "<group>";
 		};
@@ -594,7 +586,6 @@
 				8BE311236D7FFF7F55B3B547AE4B70F2 /* MarkDownToInlineAttributedStringConverterConfiguration.swift */,
 				99716DCA9FDD103E50C29CEF07BB9B84 /* MarkdownToViewConverterConfiguration.swift */,
 			);
-			name = Configurations;
 			path = Configurations;
 			sourceTree = "<group>";
 		};
@@ -616,7 +607,6 @@
 				0170C5B47E4954149B623BF933263D83 /* Block */,
 				4F761347BC5E414F2FAA40291CE4AF0A /* Inline */,
 			);
-			name = "Block Builders";
 			path = "Block Builders";
 			sourceTree = "<group>";
 		};
@@ -685,7 +675,7 @@
 				3B9F985E47B116C0720D5CA6CCC59A5E /* InlineMarkDownItemFactory.swift */,
 				BE1A04AE1AD312E47E701D368411B826 /* ListMarkDownItemFactory.swift */,
 				7B3AE9020F246C4BE3BB902A798AFB47 /* MarkDownLines.swift */,
-				9901ACBDE870FAEECD99B413665C9989 /* MarkyMark.swift */,
+				9901ACBDE870FAEECD99B413665C9989 /* MYPMark.swift */,
 				02CCB07108901F1B7FA6D04B66ED97B3 /* RuleRangePair.swift */,
 				76C3535B1170F688462BBD9CA94EB839 /* ElementComposers */,
 				A9300B94E822900C6068EDDA786EA4DC /* Extensions */,
@@ -750,7 +740,6 @@
 				C213E164A238421A069A713EA2A00DDE /* InlineAttributedStringViewLayoutBlockBuilder.swift */,
 				B57AAAD083FC1D7252A3495A2DD26A5B /* LinkLayoutBuilder.swift */,
 			);
-			name = Inline;
 			path = Inline;
 			sourceTree = "<group>";
 		};
@@ -760,7 +749,6 @@
 				18307E9A84FA06C2F27B7586668BB07F /* Block */,
 				CFD37B1D74E174A51F18177B9112AF68 /* Inline */,
 			);
-			name = "Block Builders";
 			path = "Block Builders";
 			sourceTree = "<group>";
 		};
@@ -795,7 +783,6 @@
 				B7B237B058EA209421075F8CCC91A557 /* LinkRule.swift */,
 				00724EB52DC5B42299D22969EC4C8287 /* StrikeRule.swift */,
 			);
-			name = Inline;
 			path = Inline;
 			sourceTree = "<group>";
 		};
@@ -842,7 +829,6 @@
 				DEC9558AC6A7BEE03FC528CB70BC21F5 /* TextSizeStylingRule.swift */,
 				9DEC324F7BA3AED55132B51CE4BEB5DB /* UnderlineStylingRule.swift */,
 			);
-			name = Protocols;
 			path = Protocols;
 			sourceTree = "<group>";
 		};
@@ -1074,7 +1060,7 @@
 				49B2AA60C9ACD2AF8A866A91553986E0 /* MarkDownToAttributedStringConverterConfiguration.swift in Sources */,
 				1756717BD9F75D9A7D5A377D181C9162 /* MarkDownToInlineAttributedStringConverterConfiguration.swift in Sources */,
 				6D4B0FD8F9C3EF541E6439F732F5F51C /* MarkdownToViewConverterConfiguration.swift in Sources */,
-				40DDFB72B1EA6CEEC3C45E00273D2A11 /* MarkyMark.swift in Sources */,
+				40DDFB72B1EA6CEEC3C45E00273D2A11 /* MYPMark.swift in Sources */,
 				4D7F1A0A51E49DC6C9124C0DDEA39401 /* MYPMarkdown-dummy.m in Sources */,
 				EA0CCEA6BFD7E7A8041DEF7AE47C7AB0 /* NSAttributedString+FullRange.swift in Sources */,
 				194AB55EFF39F8D66FC3FB5661AC63C1 /* NSRange+extensions.swift in Sources */,
