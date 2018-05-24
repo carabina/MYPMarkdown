@@ -1,9 +1,9 @@
 //
 //  MarkDownToAttributedStringConverterConfiguration.swift
-//  MarkyMark
+//  MYPMarkdown
 //
-//  Created by Menno Lovink on 03/05/16.
-//  Copyright © 2016 M2mobi. All rights reserved.
+//  Created by mayuping321@163.com on 05/23/2018.
+//  Copyright (c) 2018 mayuping321@163.com. All rights reserved.
 //
 
 import UIKit
