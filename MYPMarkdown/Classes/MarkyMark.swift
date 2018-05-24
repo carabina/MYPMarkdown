@@ -1,6 +1,7 @@
+//  MYPMarkdown
 //
-// Created by Jim van Zummeren on 22/04/16.
-// Copyright (c) 2016 M2mobi. All rights reserved.
+//  Created by mayuping321@163.com on 05/23/2018.
+//  Copyright (c) 2018 mayuping321@163.com. All rights reserved.
 //
 
 import Foundation
@@ -24,7 +25,7 @@ open class MarkyMark {
     }
 
     var listRules:[ListRule] {
-        return allRules().flatMap { $0 as? ListRule }
+        return allRules().compactMap { $0 as? ListRule }
     }
     var listMarkdownItemFactory:ListMarkDownItemFactory = ListMarkDownItemFactory()
 
