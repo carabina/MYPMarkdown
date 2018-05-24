@@ -36,7 +36,7 @@ open class MYPMark {
      - returns: MarkyMark
      */
 
-    public init(build:(MarkyMark) -> Void) {
+    public init(build:(MYPMark) -> Void) {
         build(self)
 
         if getDefaultRule() == nil {
