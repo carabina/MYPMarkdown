@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         //Change this constant to try different configurations
         let converterConfiguration = ConverterConfiguration.view
         
-        //MarkyMark
+        //MYPMark
         let mark = MYPMark(build: {
             $0.setFlavor(ContentfulFlavor())
         })
@@ -105,7 +105,7 @@ private extension ViewController {
         if let filepath = Bundle.main.path(forResource: "another", ofType: "md") {
             markdownString = try! String(contentsOfFile: filepath)
         }
-        
+        print("Text: \(markdownString)")
         return markdownString
     }
 }
