@@ -102,7 +102,7 @@ private extension ViewController {
     
     func getMarkDownString() -> String {
         var markdownString:String = ""
-        if let filepath = Bundle.main.path(forResource: "markdown", ofType: "txt") {
+        if let filepath = Bundle.main.path(forResource: "another", ofType: "md") {
             markdownString = try! String(contentsOfFile: filepath)
         }
         
