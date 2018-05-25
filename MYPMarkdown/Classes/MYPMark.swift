@@ -30,10 +30,10 @@ open class MYPMark {
     var listMarkdownItemFactory:ListMarkDownItemFactory = ListMarkDownItemFactory()
 
     /**
-     Initializer for building used for configuring MarkyMark
+     Initializer for building used for configuring MYPMark
      defaultRule must be set in the build
 
-     - returns: MarkyMark
+     - returns: MYPMark
      */
 
     public init(build:(MYPMark) -> Void) {
