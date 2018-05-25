@@ -15,9 +15,10 @@ public struct HorizontalLineStyling: ItemStyling, LineWidthStylingRule, Backgrou
 
         return markDownItem is HorizontalLineMarkDownItem
     }
-
-    public var backgroundColor: UIColor? = UIColor.gray
-    public var lineWidth: CGFloat = 0.5
+    // rgb(128, 128, 128);
+    public var backgroundColor: UIColor? = UIColor(red: 128.0/255.0, green: 128.0/255.0, blue: 128.0/255.0, alpha: 1.0) //UIColor.gray
+    // One Pixal
+    public var lineWidth: CGFloat = 1.0 / UIScreen.main.scale
 
     public var contentInsets = UIEdgeInsets(top:   5, left:  0, bottom: 5, right: 0)
 

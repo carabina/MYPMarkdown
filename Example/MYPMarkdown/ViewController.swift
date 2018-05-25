@@ -45,10 +45,12 @@ class ViewController: UIViewController {
             "markDownView" : markDownView
         ]
         
+        let metrics: [String: Any] = ["width": UIScreen.main.bounds.size.width - 32]
+        
         markDownView.translatesAutoresizingMaskIntoConstraints = false
         
         var constraints:[NSLayoutConstraint] = []
-        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|[markDownView(==view)]|", options: [], metrics: [:], views: views)
+        constraints += NSLayoutConstraint.constraints(withVisualFormat: "H:|-16-[markDownView(==width)]-16-|", options: [], metrics: metrics, views: views)
         constraints += NSLayoutConstraint.constraints(withVisualFormat: "V:|[markDownView]|", options: [], metrics: [:], views: views)
         view.addConstraints(constraints)
         
@@ -102,10 +104,10 @@ private extension ViewController {
     
     func getMarkDownString() -> String {
         var markdownString:String = ""
-        if let filepath = Bundle.main.path(forResource: "another", ofType: "md") {
+        if let filepath = Bundle.main.path(forResource: "markdown", ofType: "txt") {
             markdownString = try! String(contentsOfFile: filepath)
         }
-        print("Text: \(markdownString)")
+        
         return markdownString
     }
 }

@@ -21,22 +21,23 @@ public class HeadingStyling: ItemStyling, TextColorStylingRule, BaseFontStylingR
     }
 
     public var fontsForLevels = [
-        UIFont.systemFont(ofSize: 24),
+        UIFont.systemFont(ofSize: 30),
+        UIFont.systemFont(ofSize: 26),
+        UIFont.systemFont(ofSize: 21),
         UIFont.systemFont(ofSize: 18),
-        UIFont.boldSystemFont(ofSize: 16),
-        UIFont.systemFont(ofSize: 15),
-        UIFont.systemFont(ofSize: 14),
-        UIFont.systemFont(ofSize: 13)
+        UIFont.systemFont(ofSize: 16),
+        UIFont.systemFont(ofSize: 16)
     ]
 
     public var baseFont: UIFont? {
         return fontsForLevels.elementForLevel(level)
     }
-
+    
+    // H1: rgb(0, 119, 187)
+    // H2-6: rgb(44, 62, 80);
     public var textColorsForLevels:[UIColor] = [
-        .orange,
-        .black,
-        .gray
+        UIColor(red: 0.0 / 255.0, green: 119.0 / 255.0, blue: 187.0 / 255.0, alpha: 1.0),
+        UIColor(red: 44.0 / 255.0, green: 62.0 / 255.0, blue: 80.0 / 255.0, alpha: 1.0)
     ]
 
     public var textColor: UIColor? {

@@ -48,7 +48,6 @@
 		765576629E3E33E69F036965 /* Pods_MYPMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6FFA2A2267D140D956588E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E9B3F29220B596850029C45C /* markdown.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = markdown.txt; sourceTree = "<group>"; };
-		E9B3F29620B807670029C45C /* another.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = another.txt; sourceTree = "<group>"; };
 		EBD4D6E5279313EC98CFCAC6 /* Pods-MYPMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPMarkdown_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYPMarkdown_Tests/Pods-MYPMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +111,6 @@
 			children = (
 				E9B3F29220B596850029C45C /* markdown.txt */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
-				E9B3F29620B807670029C45C /* another.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
