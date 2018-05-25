@@ -9,7 +9,7 @@ import Foundation
 open class LayoutBlockBuilder<T> {
 
     /**
-     - Public init to be able to create custom layout block builders from outside MarkyMark
+     - Public init to be able to create custom layout block builders from outside MYPMarkdown
      - returns: Instance of LayoutBlockBuilder
      */
 
