@@ -7,17 +7,20 @@
 import Foundation
 import UIKit
 
-open class QuoteStyling: ItemStyling, ContentInsetStylingRule, TextColorStylingRule, BaseFontStylingRule, ItalicStylingRule {
+open class QuoteStyling: ItemStyling, ContentInsetStylingRule, TextColorStylingRule, BackgroundStylingRule, BaseFontStylingRule, ItalicStylingRule {
+    
     open var parent : ItemStyling? = nil
 
     open func isApplicableOn(_ markDownItem: MarkDownItem) -> Bool {
 
         return markDownItem is QuoteMarkDownItem
     }
-
-    open var baseFont: UIFont? = .systemFont(ofSize: UIFont.systemFontSize)
-    open var textColor: UIColor? = .gray
-    open var isItalic: Bool = true
+    // rgba(102, 128, 153, 0.05)
+    open var backgroundColor: UIColor? = UIColor(red: 102.0 / 255.0, green: 128.0 / 255.0, blue: 153.0 / 255.0, alpha: 0.05)
+    open var baseFont: UIFont? = .systemFont(ofSize: 16)
+    // rgb(44, 62, 80)
+    open var textColor: UIColor? = UIColor(red: 44.0 / 255.0, green: 62.0 / 255.0, blue: 80.0 / 255.0, alpha: 1.0)
+    open var isItalic: Bool = false
 
     open var contentInsets = UIEdgeInsets(top: 0, left:  20, bottom: 0, right: 0)
 

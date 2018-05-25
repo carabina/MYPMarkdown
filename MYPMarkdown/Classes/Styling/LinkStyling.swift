@@ -15,13 +15,13 @@ public struct LinkStyling: ItemStyling, TextColorStylingRule, UnderlineStylingRu
         
         return markDownItem is LinkMarkDownItem
     }
-
-    public var textColor: UIColor? = .brown
+    // rgb(0, 136, 204)
+    public var textColor: UIColor? = UIColor(red: 0, green: 136.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)
     public var baseFont : UIFont? = nil
 
     public var isBold = false
     public var isItalic = false
-    public var isUnderlined = true
+    public var isUnderlined = false
 
     public init(){}
 

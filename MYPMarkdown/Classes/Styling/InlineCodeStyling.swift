@@ -16,10 +16,11 @@ public class InlineCodeStyling: ItemStyling, BoldStylingRule, TextColorStylingRu
 
         return markDownItem is InlineCodeMarkDownItem
     }
-
-    public var textColor: UIColor? = .black
+    // rgb(44, 62, 80)
+    public var textColor: UIColor? = UIColor(red: 44.0 / 255.0, green: 62.0 / 255.0, blue: 80.0 / 255.0, alpha: 1.0)
     public var baseFont : UIFont? = nil
-    public var backgroundColor: UIColor? = UIColor.lightGray.withAlphaComponent(0.25)
+    // rgb(214, 219, 223)
+    public var backgroundColor: UIColor? = UIColor(red: 214.0 / 255.0, green: 219.0 / 255.0, blue: 223.0 / 255.0, alpha: 1.0)
     public var isBold = false
     public var isItalic = true
 

@@ -14,10 +14,11 @@ open class CodeBlockStyling : ItemStyling, BackgroundStylingRule, TextColorStyli
 
         return markDownItem is CodeBlockMarkDownItem
     }
-
-    open var backgroundColor: UIColor? = UIColor.lightGray.withAlphaComponent(0.25)
-    open var baseFont: UIFont? = .systemFont(ofSize: UIFont.systemFontSize)
-    open var textColor: UIColor? = .gray
+    // rgba(102, 128, 153, 0.05)
+    open var backgroundColor: UIColor? = UIColor(red: 102.0 / 255.0, green: 128.0 / 255.0, blue: 153.0 / 255.0, alpha: 0.05) //UIColor.lightGray.withAlphaComponent(0.25)
+    open var baseFont: UIFont? = .systemFont(ofSize: 14)
+    // rgb(51, 51, 51);
+    open var textColor: UIColor? = UIColor(red: 51.0 / 255.0, green: 51.0 / 255.0, blue: 51.0 / 255.0, alpha: 1.0)  //.gray
 
     open var contentInsets = UIEdgeInsets(top: 0, left:  20, bottom: 10, right: 10)
 
