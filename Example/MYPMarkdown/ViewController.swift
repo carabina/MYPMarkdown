@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         self.view = UIScrollView()
-        self.view.backgroundColor = .white
+        // rgb(249, 249, 245)
+        self.view.backgroundColor = UIColor(red: 249.0 / 255.0, green: 249.0 / 255.0, blue: 245.0 / 255.0, alpha: 1.0)
         //Change this constant to try different configurations
         let converterConfiguration = ConverterConfiguration.view
         
