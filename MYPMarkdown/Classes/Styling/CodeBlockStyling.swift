@@ -20,7 +20,7 @@ open class CodeBlockStyling : ItemStyling, BackgroundStylingRule, TextColorStyli
     // rgb(51, 51, 51);
     open var textColor: UIColor? = UIColor(red: 51.0 / 255.0, green: 51.0 / 255.0, blue: 51.0 / 255.0, alpha: 1.0)  //.gray
 
-    open var contentInsets = UIEdgeInsets(top: 0, left:  20, bottom: 10, right: 10)
+    open var contentInsets = UIEdgeInsets(top: 10, left:  20, bottom: 10, right: 10)
 
     public init(){}
 

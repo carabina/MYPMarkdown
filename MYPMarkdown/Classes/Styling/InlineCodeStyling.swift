@@ -22,7 +22,7 @@ public class InlineCodeStyling: ItemStyling, BoldStylingRule, TextColorStylingRu
     // rgb(214, 219, 223)
     public var backgroundColor: UIColor? = UIColor(red: 214.0 / 255.0, green: 219.0 / 255.0, blue: 223.0 / 255.0, alpha: 1.0)
     public var isBold = false
-    public var isItalic = true
+    public var isItalic = false
 
     public init(){}
 
