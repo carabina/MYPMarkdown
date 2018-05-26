@@ -1,21 +1,21 @@
-# 欢迎使用 MYP Markdown 编辑阅读器
+# 欢迎使用 Markdown 编辑阅读器
 
 ------
 
-我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**MYP Markdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 MYP Markdown：
+我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，**MYPMarkdown** 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 MYPMarkdown：
 
 > 整理知识，**学习笔记**
 > 发布日记，杂文，所见所想
 > 撰写发布技术文稿（代码支持）
 > 撰写发布学术论文（`LaTeX` 公式支持）
 
-![MYP-markdown](https://github.com/wakaryry/MYPMarkdown/blob/master/screens/prototype.png)
+![MYP-markdown](https://upload-images.jianshu.io/upload_images/9077718-bf73e68a7410ed89.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
 
-除了您现在看到的这个 MYP Markdown 在线版本，您还可以前往以下网址下载：
+MYPMarkdown 提供友好和高效的编辑界面，并通过`Native UI`的形式在移动端渲染：
 
-### [Windows/Mac/Linux 全平台客户端](https://github.com/wakaryry/MYPMarkdown/blob/master/screens/prototype.png)
+### [即将上线IOS/Android APP](https://github.com/wakaryry/MYPMarkdown/blob/master/screens/prototype.png)
 
-> 请保留此份 MYP Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 <i class="icon-file"></i> **新文稿** 或者使用快捷键 `Ctrl+Alt+N`。
+> 请保留此份 MYPMarkdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 **新文稿** 或者使用快捷键 `Ctrl+Alt+N`。
 
 ------
 
@@ -25,11 +25,11 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 ### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
 
-- [ ] 支持以 PDF 格式导出文稿
+- [ ] 支持 Todo 列表功能
 - [ ] 改进渲染算法，使用局部渲染技术提高渲染效率
-- [x] 新增 Todo 列表功能
-- [x] 修复 LaTex 公式渲染问题
-- [x] 新增 LaTex 公式编号功能
+- [x] 新增 代码高亮 功能
+- [x] 支持 LaTex 公式渲染
+- [x] 支持更多的手势操作：图片点击浏览，等
 
 ### 2. 书写一个质能守恒公式[^LaTeX]
 
