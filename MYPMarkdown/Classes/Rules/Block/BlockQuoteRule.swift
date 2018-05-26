@@ -11,6 +11,7 @@ open class BlockQuoteRule: RegExRule {
     public init() {}
 
     /// Example: > Quote
+    // It's block. Could have many lines not just one.
     open var expression = NSRegularExpression.expressionWithPattern("(^>{1,}) (.*?)$")
 
     //MARK: Rule

@@ -21,7 +21,8 @@ class QuoteBlockLayoutBuilder: InlineAttributedStringViewLayoutBlockBuilder {
 
         let spacing:UIEdgeInsets? = (styling as? ContentInsetStylingRule)?.contentInsets
         let containerView = ContainerView(view: label, spacing: spacing)
-        containerView.backgroundColor = (styling as? BackgroundStylingRule)?.backgroundColor
+        // not use BackgroundStylingRule.
+        containerView.backgroundColor = (styling as? QuoteStyling)?.backgroundColor //(styling as? BackgroundStylingRule)?.backgroundColor
         return containerView
     }
 }
