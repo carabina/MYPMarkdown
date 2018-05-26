@@ -20,6 +20,8 @@ class QuoteBlockLayoutBuilder: InlineAttributedStringViewLayoutBlockBuilder {
         label.setAttributedString(attributedStringForMarkDownItem(markDownItem, styling: styling))
 
         let spacing:UIEdgeInsets? = (styling as? ContentInsetStylingRule)?.contentInsets
-        return ContainerView(view: label, spacing: spacing)
+        let containerView = ContainerView(view: label, spacing: spacing)
+        containerView.backgroundColor = (styling as? BackgroundStylingRule)?.backgroundColor
+        return containerView
     }
 }

@@ -22,8 +22,13 @@ open class QuoteStyling: ItemStyling, ContentInsetStylingRule, TextColorStylingR
     open var textColor: UIColor? = UIColor(red: 44.0 / 255.0, green: 62.0 / 255.0, blue: 80.0 / 255.0, alpha: 1.0)
     open var isItalic: Bool = false
 
-    open var contentInsets = UIEdgeInsets(top: 0, left:  20, bottom: 0, right: 0)
+    open var contentInsets = UIEdgeInsets(top: 10, left:  20, bottom: 10, right: 0)
 
     public init(){}
+    
+    func neededBackgroundColor() -> UIColor? {
+        // not allow the text's line background. We set background for the container UIView
+        return nil
+    }
 
 }

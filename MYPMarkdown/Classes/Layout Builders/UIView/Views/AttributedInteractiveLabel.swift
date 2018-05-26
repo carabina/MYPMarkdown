@@ -47,6 +47,7 @@ open class AttributedInteractiveLabel: UILabel {
 
         let locationInView = tapGesture.location(in: view)
         if let url = getUrlAtLocationInView(locationInView) {
+            //TODO: To make delegate
             //UIApplication.shared.openURL(url)
             UIApplication.shared.open(url)
         }

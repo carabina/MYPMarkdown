@@ -22,7 +22,7 @@ public struct ListStyling: ItemStyling, BulletStylingRule, BaseFontStylingRule, 
     public var bulletImages: [UIImage?]? = nil
     public var bulletViewSize: CGSize = CGSize(width: 16, height: 16)
 
-    public var baseFont: UIFont? = UIFont.systemFont(ofSize: UIFont.systemFontSize)
+    public var baseFont: UIFont? = UIFont.systemFont(ofSize: 16)
 
     public var contentInsets = UIEdgeInsets(top: 0, left:  0, bottom: 10, right: 10)
 
