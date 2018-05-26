@@ -16,8 +16,9 @@ public struct ListStyling: ItemStyling, BulletStylingRule, BaseFontStylingRule, 
         return markDownItem is ListMarkDownItem
     }
 
-    public var bulletFont:UIFont? = .systemFont(ofSize: 14)
-    public var bulletColor:UIColor? = .gray
+    public var bulletFont:UIFont? = .systemFont(ofSize: 16)
+    // rgb(44, 62, 80)
+    public var bulletColor:UIColor? = UIColor(red: 44.0 / 255.0, green: 62.0 / 255.0, blue: 80.0 / 255.0, alpha: 1.0)
     public var bulletImage: UIImage? = nil
     public var bulletImages: [UIImage?]? = nil
     public var bulletViewSize: CGSize = CGSize(width: 16, height: 16)
